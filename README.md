@@ -1,4 +1,4 @@
-## DEPLOY MACHINE LEARNING MODELS
+# DEPLOY MACHINE LEARNING MODELS
 Project ini digunakan untuk mendeteksi RPS (Rock, Paper, Scissors) untuk mengklasifikasi citra gestur tangan individu pada permaian batu, kertas, gunting.
 
 Link Dataset yang digunakan : https://drive.google.com/file/d/1T4BGxhHm7JXYm4XHaUPP-zZkbTwgC8LK/view?usp=drive_link
@@ -12,7 +12,7 @@ Gambar yang digunakan dalah citra gestur tangan pada permaian batu, kertas, gunt
 Splitting Dataset : Training : 70% , Validation = 25% , Testing = 5%
 
 # Preprocessing dan Modelling
-Preprocessing Model :  rescale=1./255, rotation_range=30, zoom_range=0.2, Horizontal_flip=True, fill_mode='nearest')
+Preprocessing Model :  rescale=1./255, rotation_range=30, zoom_range=0.2, Horizontal_flip=True, fill_mode='nearest'
 
 Modelling model VGG19
 summary model VGG19
