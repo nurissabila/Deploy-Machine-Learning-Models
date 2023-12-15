@@ -20,7 +20,7 @@ summary model VGG19
 <img width="400" alt="2" src="https://github.com/nurissabila/Deploy-Machine-Learning-Models/assets/71714312/ec42919c-60f7-4742-8eb4-7e988ce33cbb">
 
 
-Graph Loss dan Accuracy
+Graph Loss dan Accuracy 
 
 ![11](https://github.com/nurissabila/Deploy-Machine-Learning-Models/assets/71714312/a75762be-1598-4a6f-85f5-8509044d3e7e)
 
