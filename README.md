@@ -17,13 +17,19 @@ Preprocessing Model :  rescale=1./255, rotation_range=30, zoom_range=0.2, Horizo
 Modelling model VGG19
 summary model VGG19
 
-<img width="200" alt="Screenshot 2023-12-15 111848" src="https://github.com/nurissabila/Deploy-Machine-Learning-Models/assets/71714312/28e2e04e-413d-480a-837f-cc75d7538ca3">
+<img width="400" alt="2" src="https://github.com/nurissabila/Deploy-Machine-Learning-Models/assets/71714312/ec42919c-60f7-4742-8eb4-7e988ce33cbb">
+
 
 Graph Loss dan Accuracy
-![download (1)](https://github.com/nurissabila/Deploy-Machine-Learning-Models/assets/71714312/734c3497-dee7-44c0-ae16-9e5d3b655ee5)
+
+![11](https://github.com/nurissabila/Deploy-Machine-Learning-Models/assets/71714312/a75762be-1598-4a6f-85f5-8509044d3e7e)
+
+![12](https://github.com/nurissabila/Deploy-Machine-Learning-Models/assets/71714312/9a0b3ec9-59bd-4f0d-a6ea-d8c3394b53ff)
 
 Evaluation Matrix
-<img width="270" alt="Screenshot 2023-12-15 112656" src="https://github.com/nurissabila/Deploy-Machine-Learning-Models/assets/71714312/25f5b39c-0725-4818-b21c-6af9ed769b39">
+
+<img width="500" alt="3" src="https://github.com/nurissabila/Deploy-Machine-Learning-Models/assets/71714312/ce62fdcd-1dee-42b0-9c67-0a253650ecbe">
+
 
 # Predict Data
 Predict Data dengan Model VGG19
@@ -31,6 +37,12 @@ Predict Data dengan Model VGG19
 
 
 # Local Development
+<img width="907" alt="Screenshot 2023-12-15 112912" src="https://github.com/nurissabila/Deploy-Machine-Learning-Models/assets/71714312/04ac52ea-7b72-4167-a462-a454f1595459">
+
+
+
+<img width="904" alt="Screenshot 2023-12-15 112933" src="https://github.com/nurissabila/Deploy-Machine-Learning-Models/assets/71714312/27e5d753-0486-4b4d-8498-3940ddde54f6">
+
 
 
 
