@@ -1,4 +1,4 @@
-## DEPLOY MACHINE LEARNING MODELS
+# DEPLOY MACHINE LEARNING MODELS
 Project ini digunakan untuk mendeteksi RPS (Rock, Paper, Scissors) untuk mengklasifikasi citra gestur tangan individu pada permaian batu, kertas, gunting.
 
 Link Dataset yang digunakan : https://drive.google.com/file/d/1T4BGxhHm7JXYm4XHaUPP-zZkbTwgC8LK/view?usp=drive_link
