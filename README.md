@@ -12,7 +12,7 @@ Gambar yang digunakan dalah citra gestur tangan pada permaian batu, kertas, gunt
 Splitting Dataset : Training : 70% , Validation = 25% , Testing = 5%
 
 # Preprocessing dan Modelling
-Preprocessing Model :  rescale=1./255, rotation_range=30, zoom_range=0.2, Horizontal_flip=True, fill_mode='nearest')
+Preprocessing Model :  rescale=1./255, rotation_range=30, zoom_range=0.2, Horizontal_flip=True, fill_mode='nearest'
 
 Modelling model VGG19
 summary model VGG19
