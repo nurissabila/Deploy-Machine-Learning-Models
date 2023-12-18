@@ -32,6 +32,5 @@ def get_output():
 	runtime = round(end_time - start_time, 4)
 	return render_template("index.html", prediction = prediction,  img_path = img_path, runtime=runtime, confidence=confidence)
 	
-
 if __name__ =='__main__':
 	app.run(debug = True)
