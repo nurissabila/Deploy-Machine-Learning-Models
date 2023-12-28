@@ -8,9 +8,7 @@ app = Flask(__name__)
 
 dic = {0 : 'Paper', 1 : 'Rock', 2 : 'Scissors'}
 
-model = load_model('D:\SMT 7\Pembelajaran Mesin\Modul\Modul 6 - AI Web Model Deployment-20230919T140103Z-001\Modul 6 - AI Web Model Deployment\Praktikum\modeldataimage.h5')
-
-model.make_predict_function()
+model = load_model('D:\SMT 7\Pembelajaran Mesin\Modul\Modul 6 - AI Web Model Deployment-20230919T140103Z-001\Modul 6 - AI Web Model Deployment\PraktikumModul6\modeldataimage.h5')
 
 @app.route("/", methods=['GET'])
 def main():
