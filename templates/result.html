@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Image Classification</title>
+    <title>Result</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
@@ -29,26 +29,17 @@
         float: right;
         margin-top: 17%;
       }
+
+      .right h1, h5{
+        font-weight: bold;
+      }
     </style>
   </head>
 
   <body>
     <div class="container">
-      <h1 class="jumbotron bg-primary">RPS Detection</h1>
+      <h1 class="jumbotron bg-primary">Prediction Result</h1>
       <br/><br/>
-      <form class="form-horizontal" action="/submit" method="post" enctype="multipart/form-data">
-        <div class="form-group">
-          <label class="control-label col-sm-2" for="pwd">Upload Image :</label>
-          <div class="col-sm-10">
-            <input type="file" class="form-control" name="my_image" id="pwd" />
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-success">Submit</button>
-          </div>
-        </div>
-      </form>
     </div>
 
     <div class="container2">
@@ -58,15 +49,17 @@
         {% endif %}
       </div>
 
-      <div class="right">
+      <div class="right" line-height: 1.5>
         {% if prediction %}
-        <h4>Prediction Label : <i> {{prediction}} </i></h4>
-        {% endif %} {% if runtime %}
-        <h4>Prediction time : <i> {{runtime}} </i></h4>
-        {% endif %} {% if confidence %}
-        <h4>Prediction accuracy : <i> {{confidence}} </i></h4>
+        <h1><b>Vgg19 Model</b></h1>
+        <h5>Predicted Label is : <i> {{prediction}} </i></h5>
+        {% endif %} 
+        
+        {% if confidence or runtime %}
+        <h6>Angka Prediksi : <i> {{confidence}} </i> | Waktu Prediksi : <i> {{runtime}} detik</i></h6>
         {% endif %}
       </div>
+      <a href="{{ url_for('main') }}">Back to Main Page</a>
     </div>
   </body>
 </html>

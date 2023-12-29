@@ -3,6 +3,7 @@ from keras.models import load_model
 from keras.preprocessing import image
 import numpy as np
 import time
+from flask import redirect, url_for
 
 app = Flask(__name__)
 
@@ -28,7 +29,8 @@ def get_output():
 	confidence = np.round(float(p[0][predicted_class])*100,2)
 	end_time = time.time()
 	runtime = round(end_time - start_time, 4)
-	return render_template("index.html", prediction = prediction,  img_path = img_path, runtime=runtime, confidence=confidence)
+	return render_template("result.html", prediction = prediction,  img_path = img_path, runtime=runtime, confidence=confidence)
+
 	
 if __name__ =='__main__':
 	app.run(debug = True)
